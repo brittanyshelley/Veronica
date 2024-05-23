@@ -5,20 +5,20 @@ const ProfileCard = () => {
       <div className="bg-purple-600 p-4 flex justify-between items-center">
         <button className="text-white">
           <span className="sr-only">Profile</span>
-          <svg className="w-6 h-6 fill-current" /* SVG icon path here */ />
+          <svg className="w-6 h-6 fill-current">{/* SVG icon path here */}</svg>
         </button>
         <button className="text-white">
           <span className="sr-only">Messages</span>
-          <svg className="w-6 h-6 fill-current" /* SVG icon path here */ />
+          <svg className="w-6 h-6 fill-current">{/* SVG icon path here */}</svg>
         </button>
         <button className="text-white">
           <span className="sr-only">Settings</span>
-          <svg className="w-6 h-6 fill-current" /* SVG icon path here */ />
+          <svg className="w-6 h-6 fill-current">{/* SVG icon path here */}</svg>
         </button>
       </div>
       <div className="p-6">
         <p className="text-gray-700">
-          "I think that's a responsibility that I have, to push possibilities, to show people, this is the level that things could be at..."
+          &quot;I think that&apos;s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at...&quot;
         </p>
       </div>
     </div>
@@ -26,3 +26,4 @@ const ProfileCard = () => {
 };
 
 export default ProfileCard;
+

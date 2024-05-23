@@ -1,11 +1,21 @@
 // components/Bio.js
+import Image from 'next/image';
+
 function BioSection() {
   return (
     <div className="card card-side bg-base-100 shadow-xl mx-auto max-w-4xl p-5">
-      <figure><img src="https://placeimg.com/200/200/people" alt="Mortgage Broker" className="rounded-full w-24 h-24" /></figure>
+      <figure>
+        <Image
+          src="https://placeimg.com/200/200/people"
+          alt="Mortgage Broker"
+          className="rounded-full"
+          width={96}
+          height={96}
+        />
+      </figure>
       <div className="card-body">
         <h2 className="card-title">John Doe</h2>
-        <p>John Doe is an experienced mortgage broker with over 10 years of experience helping clients find the perfect mortgage solution. Whether you're buying your first home or refinancing, John can guide you through the process.</p>
+        <p>John Doe is an experienced mortgage broker with over 10 years of experience helping clients find the perfect mortgage solution. Whether you&apos;re buying your first home or refinancing, John can guide you through the process.</p>
         <div>
           <strong>Contact:</strong>
           <p>Email: john.doe@example.com</p>
@@ -20,3 +30,4 @@ function BioSection() {
 }
 
 export default BioSection;
+

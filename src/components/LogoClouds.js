@@ -29,7 +29,7 @@ export default function Example() {
             width={158}
             height={48}
           />
-          <img
+          <Image
             className="col-span-2 max-h-24 w-full object-contain sm:col-start-2 lg:col-span-1"
             src="/TD.png"
             alt="SavvyCal"
