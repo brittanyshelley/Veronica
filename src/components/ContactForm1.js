@@ -32,7 +32,7 @@ const ContactForm1 = () => {
         <div className="w-full md:flex-1 flex items-center justify-center">
           {/* Assuming you're using Next.js Image component. Adjust the width and height for smaller screens if needed */}
           <Image
-            src="/img1.jpeg"
+            src="/brooke1.jpeg"
             alt="Mortgage Broker"
             width={500}
             height={300}

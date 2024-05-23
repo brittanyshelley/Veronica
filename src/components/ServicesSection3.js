@@ -15,7 +15,7 @@ const services = [
   {
     title: 'Commercial Loans',
     description: 'Flexible financing options for your business needs.',
-    imageUrl: "/img1.jpeg", // Replace with your image path
+    imageUrl: "/brooke1.jpeg", // Replace with your image path
   },
 ];
 

@@ -35,7 +35,7 @@ const ServicesSection2 = () => {
             </div>
             <div className="relative w-full h-64 object-contain rounded-lg shadow-xl">
               <Image
-                src="/img1.jpeg"
+                src="/brooke1.jpeg"
                 alt="Customization"
                 width={300} // Specify the width here
                 height={500} // And the height here
