@@ -1,12 +1,20 @@
 // src/services/supabase/applications.js
-import { supabase } from './supabaseClient';
+import { supabase } from '../utils/supabaseClient';
 
-export async function submitMortgageApplication(formData) {
+export async function getApplications() {
   const { data, error } = await supabase
-    .from('mortgage_applications')
-    .insert([formData]);
+    .from('applications')
+    .select(`
+      id,
+      status,
+      loan_amount,
+      property_address,
+      created_at,
+      applicant:applicants (first_name, last_name, email, phone_number)
+    `);
 
-  if (error) throw new Error(error.message);
-
+  if (error) {
+    throw new Error(error.message);
+  }
   return data;
 }
