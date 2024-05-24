@@ -1,8 +1,6 @@
-import Image from "next/image";
 import { Montserrat } from "next/font/google";
 import React from 'react';
 import Head from 'next/head';
-import Link from 'next/link';
 import Testimonials from '../components/Testimonials'; // Ensure you have this component
 import Testimonials2 from '../components/Testimonials2';
 import HeroSection from '../components/HeroSection';

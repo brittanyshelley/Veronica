@@ -1,7 +1,7 @@
 // components/Bio.js
 import Image from 'next/image';
 
-function BioSection() {
+export default function BioSection() {
   return (
     <div className="card card-side bg-base-100 shadow-xl mx-auto max-w-4xl p-5">
       <figure>
@@ -29,5 +29,5 @@ function BioSection() {
   );
 }
 
-export default BioSection;
+
 
